@@ -25,8 +25,9 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
     const handleCartSidebar = () => setCartSidebar(!isCartSidebar)
 
     useEffect(() => {
-        const WOW = require('wowjs')
-        window.wow = new WOW.WOW({
+        const wowjs = require('wowjs')
+        const WOW = wowjs.WOW || window.WOW || wowjs.default?.WOW || wowjs.default || wowjs
+        window.wow = new WOW({
             live: false
         })
         window.wow.init()

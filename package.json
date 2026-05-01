@@ -4,8 +4,8 @@
     "private": true,
     "author": "alithemes",
     "scripts": {
-        "dev": "next dev",
-        "build": "next build",
+        "dev": "next dev --webpack",
+        "build": "next build --webpack",
         "start": "next start",
         "lint": "next lint",
         "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
@@ -13,8 +13,8 @@
     "dependencies": {
         "@reduxjs/toolkit": "^2.2.7",
         "next": "16.1.1",
-        "react": "^19.2.1",
-        "react-dom": "^19.2.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
         "rc-slider": "^10.4.0",
         "rc-tooltip": "^6.1.4",
         "react-modal-video": "^2.0.1",
