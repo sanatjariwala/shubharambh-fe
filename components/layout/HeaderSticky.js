@@ -10,7 +10,7 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                     <div className="row align-items-center">
                         <div className="col-xl-2 col-lg-3">
                             <div className="logo">
-                                <Link href="/"><img src="/assets/img/logo/logo.png" alt="logo" /></Link>
+                                <Link href="/"><img src="/assets/img/logo/shubharambh.png" alt="logo" style={{ maxHeight: "85px", width: "auto" }} /></Link>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6">

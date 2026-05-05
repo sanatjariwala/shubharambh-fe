@@ -12,8 +12,8 @@ export default function HeaderTabSticky({ scroll, isMobileMenu, handleMobileMenu
                             <div className="header-canvas flex-auto">
                                 <button className="tp-menu-toggle" onClick={handleMobileMenu}><i className="far fa-bars" /></button>
                             </div>
-                            <div className="logo">
-                                <Link href="/"><img src="/assets/img/logo/logo.png" alt="logo" /></Link>
+                            <div className="logo ml-15">
+                                <Link href="/"><img src="/assets/img/logo/shubharambh.png" alt="logo" style={{ maxHeight: "85px", width: "auto" }} /></Link>
                             </div>
                         </div>
                         <div className="col-lg-9 col-md-8">

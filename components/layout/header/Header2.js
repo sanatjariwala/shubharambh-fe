@@ -141,7 +141,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
                                             </nav>
                                         </div>
                                         <div className="mainmenu__logo">
-                                            <Link href="/"><img src="/assets/img/logo/logo.png" alt="" /></Link>
+                                            <Link href="/"><img src="/assets/img/logo/shubharambh.png" alt="" style={{ maxHeight: "85px", width: "auto" }} /></Link>
                                         </div>
                                     </div>
                                 </div>

@@ -14,7 +14,7 @@ export default function HeaderMobSticky({ scroll, isMobileMenu, handleMobileMenu
                         </div>
                         <div className="col-6">
                             <div className="logo text-center">
-                                <Link href="/"><img src="/assets/img/logo/logo.png" alt="logo" /></Link>
+                                <Link href="/"><img src="/assets/img/logo/shubharambh.png" alt="logo" style={{ maxHeight: "85px", width: "auto" }} /></Link>
                             </div>
                         </div>
                         <div className="col-3">
