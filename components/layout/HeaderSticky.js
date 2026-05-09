@@ -10,14 +10,14 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                     <div className="row align-items-center">
                         <div className="col-xl-2 col-lg-3">
                             <div className="logo">
-                                <Link href="/"><img src="/assets/img/logo/shubharambh.png" alt="logo" style={{ maxHeight: "85px", width: "auto" }} /></Link>
+                                <Link href="/"><img src="/assets/img/logo/shubharambh.png" alt="logo" style={{ maxHeight: "50px", width: "auto" }} /></Link>
                             </div>
                         </div>
-                        <div className="col-xl-6 col-lg-6">
-                            <div className="main-menu">
+                        <div className="col-xl-7 col-lg-6">
+                            <div className="main-menu d-flex justify-content-center">
                                 <nav>
-                                    <ul>
-                                        <li className="has-dropdown">
+                                    <ul className="d-flex align-items-center mb-0">
+                                        <li className="has-dropdown mx-3">
                                             <Link href="/">Home</Link>
                                             <ul className="submenu">
                                                 <li><Link href="/">Wooden Home</Link></li>
@@ -27,7 +27,7 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                                 <li><Link href="/index-5">Food Grocery</Link></li>
                                             </ul>
                                         </li>
-                                        <li className="has-dropdown">
+                                        <li className="has-dropdown mx-3">
                                             <Link href="/shop">Shop</Link>
                                             <ul className="submenu">
                                                 <li><Link href="/shop">Shop</Link></li>
@@ -42,7 +42,7 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                                 <li><Link href="/track">Product Track</Link></li>
                                             </ul>
                                         </li>
-                                        <li className="has-dropdown has-megamenu">
+                                        <li className="has-dropdown has-megamenu mx-3">
                                             <Link href="/about">Pages</Link>
                                             <ul className="submenu mega-menu">
                                                 <li>
@@ -56,17 +56,16 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <a className="mega-menu-title">Page layout</a>
+                                                    <a className="mega-menu-title">Account</a>
                                                     <ul>
                                                         <li><Link href="/about">About</Link></li>
                                                         <li><Link href="/cart">Cart</Link></li>
                                                         <li><Link href="/checkout">Checkout</Link></li>
                                                         <li><Link href="/sign-in">Sign In</Link></li>
-                                                        <li><Link href="/sign-in">Log In</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <a className="mega-menu-title">Page type</a>
+                                                    <a className="mega-menu-title">Help</a>
                                                     <ul>
                                                         <li><Link href="/track">Product Track</Link></li>
                                                         <li><Link href="/wishlist">Wishlist</Link></li>
@@ -76,26 +75,26 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li className="has-dropdown">
+                                        <li className="has-dropdown mx-3">
                                             <Link href="/blog">Blog</Link>
                                             <ul className="submenu">
                                                 <li><Link href="/blog">Blog</Link></li>
                                                 <li><Link href="/blog-details">Blog Details</Link></li>
                                             </ul>
                                         </li>
-                                        <li><Link href="/contact">Contact</Link></li>
+                                        <li className="mx-3"><Link href="/contact">Contact</Link></li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-lg-9">
+                        <div className="col-xl-3 col-lg-3">
                             <div className="header-meta-info d-flex align-items-center justify-content-end">
                                 <div className="header-meta__social  d-flex align-items-center">
-                                    <button className="header-cart p-relative tp-cart-toggle" onClick={handleCartSidebar}>
+                                    <button className="header-cart p-relative tp-cart-toggle mr-20" onClick={handleCartSidebar}>
                                         <i className="fal fa-shopping-cart" />
                                         <CartShow />
                                     </button>
-                                    <Link href="/sign-in"><i className="fal fa-user" /></Link>
+                                    <Link href="/sign-in" className="mr-20"><i className="fal fa-user" /></Link>
                                     <Link href="/wishlist" className="header-cart p-relative tp-cart-toggle">
                                         <i className="fal fa-heart" />
                                         <WishListShow />

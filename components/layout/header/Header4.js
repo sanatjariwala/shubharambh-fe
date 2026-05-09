@@ -13,8 +13,8 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6 col-sm-6">
                                 <div className="header-welcome-text">
-                                    <span>Free shipping on all U.S orders</span>
-                                    <b>₹50+</b>
+                                    <span>Free shipping on orders above</span>
+                                    <b> ₹1000</b>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-6 d-none d-sm-block">
@@ -49,7 +49,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                             <div className="col-lg-2">
                                 <div className="mainmenu__main text-center">
                                     <div className="main-logo">
-                                        <Link href="/"><img src="/assets/img/logo/shubharambh.png" alt="logo" style={{ maxHeight: "85px", width: "auto" }} /></Link>
+                                        <Link href="/"><img src="/assets/img/logo/shubharambh.png" alt="logo" style={{ maxHeight: "50px", width: "auto" }} /></Link>
                                     </div>
                                 </div>
                             </div>

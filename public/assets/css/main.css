@@ -1933,15 +1933,17 @@ input[type="color"] {
 }
 
 .mainmenu__main > .main-menu > nav > ul > li:nth-child(3) {
-    margin-right: 230px;
+    margin-right: 0px !important;
 }
 
 .mainmenu__logo {
-    position: absolute;
-    top: 48%;
-    left: 47%;
-    transform: translateY(-52%);
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    transform: none !important;
 }
+
+
 
 .tertiary-header-top .headertoplag__lang ul li:hover i {
     transform: rotate(0);

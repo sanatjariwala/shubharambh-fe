@@ -18,7 +18,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                         <div className="row">
                             <div className="col-xl-7 col-lg-12 col-md-12 ">
                                 <div className="header-welcome-text">
-                                    <span>Welcome to our international shop! Enjoy free shipping on orders ₹100  up.</span>
+                                    <span>Welcome to our international shop! Enjoy free shipping on orders ₹1000  up.</span>
                                     <Link href="#">Shop Now<i className="fal fa-long-arrow-right" /></Link>
                                 </div>
                             </div>
@@ -49,7 +49,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                         <div className="row align-items-center">
                             <div className="col-xl-2 col-lg-3">
                                 <div className="logo">
-                                    <Link href="/"><img src="/assets/img/logo/shubharambh.png" alt="logo" style={{ maxHeight: "85px", width: "auto" }} /></Link>
+                                    <Link href="/"><img src="/assets/img/logo/shubharambh.png" alt="logo" style={{ maxHeight: "50px", width: "auto" }} /></Link>
                                 </div>
                             </div>
                             <div className="col-xl-10 col-lg-9">

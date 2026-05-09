@@ -120,7 +120,7 @@ export default function Footer2() {
                             <div className="row align-items-center">
                                 <div className="col-xl-6 col-lg-7 col-md-5">
                                     <div className="footer-copyright__content">
-                                        <span>Copyright {new Date().getFullYear()} <Link href="/">©Ninico</Link>. All rights reserved. Developed by <Link href="https://themeforest.net/user/alithemes/portfolio"> AliThemes</Link>.</span>
+                                        <span>Copyright {new Date().getFullYear()} <Link href="/">©Shubharambh</Link>. All rights reserved.</span>
                                     </div>
                                 </div>
                                 <div className="col-xl-6 col-lg-5 col-md-7">
