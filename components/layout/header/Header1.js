@@ -21,7 +21,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                             {/* Logo */}
                             <div className="col-auto">
                                 <div className="logo">
-                                    <Link href="/"><img src="/assets/img/logo/shubharambh.png" alt="logo" style={{ maxHeight: "50px", width: "auto" }} /></Link>
+                                    <Link href="/"><img src="/assets/img/logo/shubharambh.png" alt="logo" style={{ maxHeight: "80px", width: "auto" }} /></Link>
                                 </div>
                             </div>
  

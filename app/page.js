@@ -15,9 +15,9 @@ export default function Home() {
             <Layout headerStyle={1} footerStyle={1}>
                 <Slider1 />
 
-                {/* <Product1 />
+                <Product1 />
                 <DealProduct1 />
-                <Shop /> */}
+                <Shop />
             </Layout>
         </>
     )

@@ -49,7 +49,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                         <div className="row align-items-center">
                             <div className="col-xl-2 col-lg-3">
                                 <div className="logo">
-                                    <Link href="/"><img src="/assets/img/logo/shubharambh.png" alt="logo" style={{ maxHeight: "50px", width: "auto" }} /></Link>
+                                    <Link href="/"><img src="/assets/img/logo/shubharambh.png" alt="logo" style={{ maxHeight: "80px", width: "auto" }} /></Link>
                                 </div>
                             </div>
                             <div className="col-xl-10 col-lg-9">

@@ -40,7 +40,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
                             <div className="col-xl-2 col-lg-3">
                                 <div className="logo">
                                     <Link href="/">
-                                        <img src="/assets/img/logo/shubharambh.png" alt="logo" style={{ maxHeight: "60px", width: "auto" }} />
+                                        <img src="/assets/img/logo/shubharambh.png" alt="logo" style={{ maxHeight: "100px", width: "auto" }} />
                                     </Link>
                                 </div>
                             </div>
