@@ -13,7 +13,7 @@ export default function Home() {
         <>
             <Layout headerStyle={1} footerStyle={1}>
                 <Slider1 />
-                <Category />
+
                 <Product1 />
                 <DealProduct1 />
                 <Shop />

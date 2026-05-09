@@ -164,7 +164,7 @@ export default function Slider5() {
                                 </div>
                                 <div className="tpservicesitem__content">
                                     <h4 className="tpservicesitem__title">Free shipping</h4>
-                                    <p>Free shipping orders over $65.</p>
+                                    <p>Free shipping orders over ₹65.</p>
                                 </div>
                             </div>
                         </div>

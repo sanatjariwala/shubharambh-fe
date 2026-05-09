@@ -101,16 +101,7 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                         <WishListShow />
                                     </Link>
                                 </div>
-                                <div className="header-meta__search-5 ml-25">
-                                    <div className="header-search-bar-5">
-                                        <form action="#">
-                                            <div className="search-info-5 p-relative">
-                                                <button className="header-search-icon-5"><i className="fal fa-search" /></button>
-                                                <input type="text" placeholder="Search products..." />
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>

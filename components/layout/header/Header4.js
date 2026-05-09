@@ -14,7 +14,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                             <div className="col-lg-6 col-md-6 col-sm-6">
                                 <div className="header-welcome-text">
                                     <span>Free shipping on all U.S orders</span>
-                                    <b>$50+</b>
+                                    <b>₹50+</b>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-6 d-none d-sm-block">

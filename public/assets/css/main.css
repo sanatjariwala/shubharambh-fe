@@ -2689,7 +2689,7 @@ a.add-to-cart {
     top: 50%;
     transform: translateY(-50%);
     left: 0;
-    padding-left: 60px;
+    padding-left: 100px;
     max-width: 60%;
 }
 

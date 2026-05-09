@@ -17,8 +17,8 @@ const ShopCardList = ({ item, addToCart, addToWishlist }) => {
                     <div className="filter-product ml-20 pt-30">
                         <h3 className="filter-product-title"><Link href="/shop-details">Miko Wooden Bluetooth Shirt</Link></h3>
                         <div className="tpproduct__ammount">
-                            <span>$31.00</span>
-                            <del>$25.00</del>
+                            <span>₹31.00</span>
+                            <del>₹25.00</del>
                         </div>
                         <div className="tpproduct__rating mb-15">
                             <ul>

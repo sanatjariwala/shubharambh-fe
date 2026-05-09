@@ -299,7 +299,7 @@ export default function Checkout() {
                                                                 Vestibulum suscipit <strong className="product-quantity"> × 1</strong>
                                                             </td>
                                                             <td className="product-total">
-                                                                <span className="amount">$165.00</span>
+                                                                <span className="amount">₹165.00</span>
                                                             </td>
                                                         </tr>
                                                         <tr className="cart_item">
@@ -307,14 +307,14 @@ export default function Checkout() {
                                                                 Vestibulum dictum magna <strong className="product-quantity"> × 1</strong>
                                                             </td>
                                                             <td className="product-total">
-                                                                <span className="amount">$50.00</span>
+                                                                <span className="amount">₹50.00</span>
                                                             </td>
                                                         </tr>
                                                     </tbody>
                                                     <tfoot>
                                                         <tr className="cart-subtotal">
                                                             <th>Cart Subtotal</th>
-                                                            <td><span className="amount">$215.00</span></td>
+                                                            <td><span className="amount">₹215.00</span></td>
                                                         </tr>
                                                         <tr className="shipping">
                                                             <th>Shipping</th>
@@ -323,7 +323,7 @@ export default function Checkout() {
                                                                     <li>
                                                                         <input type="radio" name="shipping" />
                                                                         <label>
-                                                                            Flat Rate: <span className="amount">$7.00</span>
+                                                                            Flat Rate: <span className="amount">₹7.00</span>
                                                                         </label>
                                                                     </li>
                                                                     <li>
@@ -335,7 +335,7 @@ export default function Checkout() {
                                                         </tr>
                                                         <tr className="order-total">
                                                             <th>Order Total</th>
-                                                            <td><strong><span className="amount">$215.00</span></strong>
+                                                            <td><strong><span className="amount">₹215.00</span></strong>
                                                             </td>
                                                         </tr>
                                                     </tfoot>

@@ -18,14 +18,6 @@ export default function HeaderTabSticky({ scroll, isMobileMenu, handleMobileMenu
                         </div>
                         <div className="col-lg-9 col-md-8">
                             <div className="header-meta-info d-flex align-items-center justify-content-between">
-                                <div className="header-search-bar">
-                                    <form action="#">
-                                        <div className="search-info p-relative">
-                                            <button className="header-search-icon"><i className="fal fa-search" /></button>
-                                            <input type="text" placeholder="Search products..." />
-                                        </div>
-                                    </form>
-                                </div>
                                 <div className="header-meta__social d-flex align-items-center ml-25">
                                     <button className="header-cart p-relative tp-cart-toggle" onClick={handleCartSidebar}>
                                         <i className="fal fa-shopping-cart" />

@@ -18,7 +18,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                         <div className="row">
                             <div className="col-xl-7 col-lg-12 col-md-12 ">
                                 <div className="header-welcome-text">
-                                    <span>Welcome to our international shop! Enjoy free shipping on orders $100  up.</span>
+                                    <span>Welcome to our international shop! Enjoy free shipping on orders ₹100  up.</span>
                                     <Link href="#">Shop Now<i className="fal fa-long-arrow-right" /></Link>
                                 </div>
                             </div>
@@ -53,45 +53,8 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                 </div>
                             </div>
                             <div className="col-xl-10 col-lg-9">
-                                <div className="header-meta-info d-flex align-items-center justify-content-between">
-                                    <div className="header-search-bar">
-                                        <form action="#">
-                                            <div className="search-info p-relative">
-                                                <button className="header-search-icon"><i className="fal fa-search" /></button>
-                                                <input type="text" placeholder="Search products..." />
-                                            </div>
-                                        </form>
-                                    </div>
+                                <div className="header-meta-info d-flex align-items-center justify-content-end">
                                     <div className="header-meta header-brand d-flex align-items-center">
-                                        <div className="header-meta__lang">
-                                            <ul>
-                                                <li>
-                                                    <Link href="#">
-                                                        <img src="/assets/img/icon/lang-flag.png" alt="flag" />
-                                                        English
-                                                        <span><i className="fal fa-angle-down" /></span>
-                                                    </Link>
-                                                    <ul className="header-meta__lang-submenu">
-                                                        <li>
-                                                            <Link href="#">Arabic</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link href="#">Spanish</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link href="#">Mandarin</Link>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="header-meta__value mr-15">
-                                            <select>
-                                                <option>USD</option>
-                                                <option>YEAN</option>
-                                                <option>EURO</option>
-                                            </select>
-                                        </div>
                                         <div className="header-meta__social d-flex align-items-center ml-25">
                                             <button className="header-cart p-relative tp-cart-toggle" onClick={handleCartSidebar}>
                                                 <i className="fal fa-shopping-cart" />
@@ -112,43 +75,8 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                 <div className="main-menu-area tertiary-main-menu mt-25 d-none d-xl-block">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-xl-2 col-lg-3">
-                                <div className="cat-menu__category p-relative">
-                                    <a onClick={handleToggle} href="#"><i className="fal fa-bars" />Categories</a>
-                                    <div className="category-menu" style={{ display: `${isToggled ? "block" : "none"}` }}>
-                                        <ul className="cat-menu__list">
-                                            <li><Link href="/shop-2"><i className="fal fa-chair" /> Furniture</Link></li>
-                                            <li className="menu-item-has-children"><Link href="/shop"><i className="far fa-campfire" />
-                                                Cooking </Link>
-                                                <ul className="submenu">
-                                                    <li><Link href="/shop-2">Chair</Link></li>
-                                                    <li><Link href="/shop-2">Table</Link></li>
-                                                    <li><Link href="/shop">Wooden</Link></li>
-                                                    <li><Link href="/shop">furniture</Link></li>
-                                                    <li><Link href="/shop">Clock</Link></li>
-                                                    <li><Link href="/shop">Gifts</Link></li>
-                                                    <li><Link href="/shop">Crafts</Link></li>
-                                                </ul>
-                                            </li>
-                                            <li><Link href="/shop-2"><i className="fal fa-shoe-prints" />Accessories</Link></li>
-                                            <li><Link href="/shop-2"><i className="fal fa-tshirt" />Fashion</Link></li>
-                                            <li><Link href="/shop-2"><i className="fal fa-clock" />Clocks</Link></li>
-                                            <li><Link href="/shop-2"><i className="fal fa-light-ceiling" />Lighting</Link></li>
-                                            <li><Link href="/shop-2"><i className="fal fa-gift" />Toys</Link></li>
-                                            <li><Link href="/shop-2"><i className="fal fa-basketball-ball" />Hand Made</Link></li>
-                                            <li><Link href="/shop-2"><i className="fal fa-gift" />Minimalism</Link></li>
-                                            <li><Link href="/shop-2"><i className="fal fa-lightbulb-dollar" />Electronics</Link></li>
-                                            <li><Link href="/shop-2"><i className="fal fa-car-alt" />Cars</Link></li>
-                                        </ul>
-                                        <div className="coupon-offer d-flex align-items-center justify-content-between">
-                                            <span>Coupon: <Link href="/shop">Offers50</Link></span>
-                                            <Link href="#"> <i className="fal fa-copy" /></Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-7 col-lg-6">
-                                <div className="main-menu">
+                            <div className="col-xl-9 col-lg-9">
+                                <div className="main-menu d-flex justify-content-center">
                                     <nav id="mobile-menu">
                                         <ul>
                                             <li className="has-dropdown">

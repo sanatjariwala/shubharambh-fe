@@ -14,33 +14,12 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
                         <div className="row align-items-center">
                             <div className="col-xl-8 col-lg-12 col-md-12">
                                 <div className="header-welcome-text ">
-                                    <span>Welcome to our international shop! Enjoy free shipping on orders $100  up.</span>
+                                    <span>Welcome to our international shop! Enjoy free shipping on orders ₹100  up.</span>
                                     <Link href="/shop">Shop Now<i className="fal fa-long-arrow-right" /></Link>
                                 </div>
                             </div>
                             <div className="col-xl-4 d-none d-xl-block">
                                 <div className="headertoplag d-flex align-items-center justify-content-end">
-                                    <div className="headertoplag__lang">
-                                        <ul>
-                                            <li>
-                                                <Link href="#">
-                                                    English
-                                                    <span><i className="fal fa-angle-down" /></span>
-                                                </Link>
-                                                <ul className="header-meta__lang-submenu">
-                                                    <li>
-                                                        <Link href="#">Arabic</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="#">Spanish</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="#">Mandarin</Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </div>
                                     <div className="menu-top-social">
                                         <Link href="#"><i className="fab fa-facebook-f" /></Link>
                                         <Link href="#"><i className="fab fa-twitter" /></Link>
@@ -58,16 +37,9 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
                         <div className="row align-items-center">
                             <div className="col-lg-9">
                                 <div className="mainmenu d-flex align-items-center">
-                                    <div className="mainmenu__search">
-                                        <form action="#">
-                                            <div className="mainmenu__search-bar p-relative">
-                                                <button className="mainmenu__search-icon"><i className="fal fa-search" /></button>
-                                                <input type="text" placeholder="Search products..." />
-                                            </div>
-                                        </form>
-                                    </div>
+
                                     <div className="mainmenu__main d-flex align-items-center p-relative">
-                                        <div className="main-menu">
+                                        <div className="main-menu d-flex justify-content-center">
                                             <nav id="mobile-menu">
                                                 <ul>
                                                     <li className="has-dropdown">
@@ -148,13 +120,6 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
                             </div>
                             <div className="col-xl-3 col-lg-3">
                                 <div className="header-meta d-flex align-items-center justify-content-end">
-                                    <div className="header-meta__value mr-15">
-                                        <select>
-                                            <option>USD</option>
-                                            <option>YEAN</option>
-                                            <option>EURO</option>
-                                        </select>
-                                    </div>
                                     <div className="header-meta__social d-flex align-items-center ml-25">
                                         <button className="header-cart p-relative tp-cart-toggle" onClick={handleCartSidebar}>
                                             <i className="fal fa-shopping-cart" />

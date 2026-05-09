@@ -42,7 +42,7 @@ export default function HeaderCart({ isCartSidebar, handleCartSidebar }) {
                                                 </span>
                                                 <div className="tpcart__cart-price">
                                                     <span className="quantity">{item?.qty} x </span>
-                                                    <span className="new-price">$ {item?.price.max}</span>
+                                                    <span className="new-price">₹ {item?.price.max}</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -53,7 +53,7 @@ export default function HeaderCart({ isCartSidebar, handleCartSidebar }) {
                         <div className="tpcart__checkout">
                             <div className="tpcart__total-price d-flex justify-content-between align-items-center">
                                 <span> Subtotal:</span>
-                                <span className="heilight-price"> ${total.toFixed(2)}</span>
+                                <span className="heilight-price"> ₹{total.toFixed(2)}</span>
                             </div>
                             <div className="tpcart__checkout-btn">
                                 <Link className="tpcart-btn mb-10" href="/cart">View Cart</Link>

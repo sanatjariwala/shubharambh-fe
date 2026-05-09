@@ -84,7 +84,7 @@ export default function PlatinamProduct() {
                                         </div>
                                         <div className="tpratingitem__content">
                                             <h4 className="tpratingitem__title mb-5">  <Link href={`/shop/${item.id}`}>Miko: Bold Miranda Joggers</Link></h4>
-                                            <span>$31.00</span>
+                                            <span>₹31.00</span>
                                             <div className="tpratingitem__star mt-5">
                                                 <i className="fas fa-star" />
                                                 <i className="fas fa-star" />
